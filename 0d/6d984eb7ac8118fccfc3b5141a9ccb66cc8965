@@ -1,0 +1,19 @@
+package-lock.json
+  s_d641c960ae0fc4::t_ad7187d1d85890 1-119
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "0d6d984eb7ac8118fccfc3b5141a9ccb66cc8965",
+  "prompts": {},
+  "sessions": {
+    "s_d641c960ae0fc4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ebf632c8dffel7swCSqmhS2Vrl",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Victor Berchet <victor@suumit.com>"
+    }
+  }
+}
