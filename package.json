@@ -1,0 +1,13 @@
+{
+  "name": "workerd-pending-read-leak",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:workerd": "node workerd.mjs",
+    "test:node": "node --expose-gc node.mjs",
+    "test": "npm run -s test:node && npm run -s test:workerd"
+  },
+  "devDependencies": {
+    "workerd": "1.20261015.1"
+  }
+}
